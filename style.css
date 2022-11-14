@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    overflow-y: hidden;
+  
+}
+
+
+
+.night{
+    width: 70vw;
+    height: 80vh;
+    margin:5rem auto;
+    background-image: url("./assets/Img_1.png");
+}
