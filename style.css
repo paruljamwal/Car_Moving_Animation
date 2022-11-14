@@ -12,7 +12,7 @@ body{
     width: 70vw;
     height: 80vh;
     margin:5rem auto;
-    background-image: url("./assets/Img_1.png");
+    background: url("./assets/Img_1.png");
     background-size: cover;
     position: relative;
     box-shadow: 1px2px 60px rgba(0, 0, 0,0.4);
@@ -23,11 +23,12 @@ body{
 .surface{
     height: 140px;
     width: 500%;
-    background-image: url("./assets/Img_02.png");
+    background: url("./assets/Img_02.png");
     display: block;
     position: absolute;
     bottom: 0%;
     left: 0;
+    background-repeat: repeat-x;
     animation: surfaceMove 6s linear infinite;
 }
 
